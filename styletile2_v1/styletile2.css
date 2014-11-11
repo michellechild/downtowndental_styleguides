@@ -1,0 +1,301 @@
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+
+div, header, nav, section, article, aside, footer, figure, hr{
+  position: relative;
+}
+body{
+  background-color: #FFF;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clear{
+  clear: both;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+header{
+  box-sizing: border-box;
+  height:200px;
+  padding-top: 75px;
+
+}
+
+/*
+  ========================================
+  Sections
+  ========================================
+*/
+
+section {
+  padding-bottom: 30px;
+  border-bottom: #999 3px solid;
+  margin-bottom: 30px;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1 {
+  font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  color: 181D20;
+}
+
+h2{
+  font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  font-size: 24px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: 181D20;
+  margin-top: 20px;
+}
+
+p, li {
+  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  color: 181D20;
+  max-width: 500px;
+}
+
+li{
+  list-style-type: none;
+  font-size: 18px;
+  float: left;
+  color: #FFF;
+  padding-left: 28px;
+  text-align: center;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.small{
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/*
+  ========================================
+ Colors
+  ========================================
+*/
+.color-box-primary {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 110px;
+  height: 110px;
+  float: left;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.primary{ 
+  width: 110px;
+  height: 110px;
+}
+
+.blue {
+  background-color: #171C20;
+}
+
+.yellow {
+  background-color: #F0DD49;
+}
+
+.gray {
+  background-color: #8C9391;
+}
+
+.white {
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 3px 1px #999;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+nav{
+  background-color: #171C20;
+  width: 501px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.lastnav{
+  padding-right: 28px;
+}
+
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+button {
+  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  border: 0;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.review{
+  font-style: bold;
+  color: #FFF;
+  background-color: #8C9391;
+  border: 3px outset #8C9391;
+}
+
+.review:hover{
+  color: #FFF;
+  background-color: #171C20;
+  border: 3px outset #171C20;
+}
+
+.appointment{
+  font-style: normal;
+  color: #FFF;
+  background-color: #171C20;
+  border: 3px outset #171C20;
+  margin-left: 20px;
+}
+
+.appointment:hover{
+  color: #FFF;
+  background-color: #8C9391;
+  border: 3px outset #8C9391;
+}
+
+/*
+  ========================================
+  Icons
+  ========================================
+*/
+
+.icon-box {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  float: left;
+}
+
+.first {
+margin-left: 0;
+}
+
+.icon-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.icon-p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  text-align: center;
+}
+/*
+  ========================================
+  Divider
+  ========================================
+*/
+
+.divider {
+  margin-top: 20px;
+  border: 0;
+  border-bottom: 3px solid #F0DD49;
+}
+/* slanted edge ? */
+
+
+/*
+  ========================================
+  Textures
+  ========================================
+*/
+
+.texture {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.first {
+  margin-left: 0;
+}
+
+
+/*
+  ========================================
+  Typography-section
+  ========================================
+*/
+.typography{
+  max-width: 500px;
+  margin-top: 20px;
+  border: 1px #171c20 solid;
+  border-radius: 5px;
+  padding: 30px;
+}
